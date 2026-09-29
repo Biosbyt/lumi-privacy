@@ -71,44 +71,67 @@
 </head>
 <body>
   <div class="container">
-    <div class="badge">Stand: Juli 2026 • Version 1.0</div>
+    <div class="badge">Stand: 29. September 2026 • Version 1.1 (Beta)</div>
     <h1>Datenschutzerklärung — Lumi</h1>
 
     <h2>1. Verantwortlicher</h2>
     <p>Verantwortlich für die Verarbeitung personenbezogener Daten im Sinne der DSGVO ist:</p>
     <p>
-      <strong>Lumi App Team</strong><br>
-      E-Mail: <a href="mailto:support@lumi-app.com" style="color: var(--accent-light);">support@lumi-app.com</a>
+      <strong>M1 Studio</strong><br>
+      Entwicklerstudio hinter Lumi<br>
+      Website: <a href="https://m1-studio.de" style="color: var(--accent-light);">m1-studio.de</a><br>
+      E-Mail: <a href="mailto:support@m1-studio.de" style="color: var(--accent-light);">support@m1-studio.de</a>
     </p>
 
-    <h2>2. Was Lumi ist</h2>
-    <p>Lumi ist eine Entspannungs- und Routine-App für geführte Audiosessions, Achtsamkeit und tägliche Gewohnheiten. Die App ist so konzipiert, dass deine Daten geschützt bleiben und dein Gerät nicht grundlos verlassen.</p>
+    <h2>2. Geltungsbereich und Grundsatz</h2>
+    <p>Lumi ist eine Entspannungs- und Routine-App für geführte Audiosessions, Achtsamkeit und tägliche Gewohnheiten. Die App kann ohne Account genutzt werden. Persönliche Inhalte werden nach dem Grundsatz der Datenminimierung überwiegend nur auf deinem Gerät verarbeitet.</p>
 
     <h2>3. Welche Daten wir verarbeiten</h2>
-    <h3>3.1 Lokal auf deinem Gerät (100% Offline-Speicherung)</h3>
-    <p>Folgende Daten werden ausschließlich lokal auf deinem Gerät im App-Speicher gespeichert:</p>
+    <h3>3.1 Lokal auf deinem Gerät</h3>
+    <p>Folgende Daten werden im lokalen App-Speicher verarbeitet und von Lumi nicht an unsere Server übertragen:</p>
     <ul>
-      <li>Dein gewählter Name / Profil-Name</li>
-      <li>Deine Fortschritte (Level, gesammelte Glow-Punkte, Streaks)</li>
-      <li>Deine Journal- und Stimmungs-Einträge</li>
-      <li>Deine Einstellungen (Benachrichtigungen, Atmosphäre, Mascot-Skins)</li>
+      <li>gewählter Name und freiwillige Onboarding-Angaben wie Absichten, Altersgruppe oder Geschlecht,</li>
+      <li>Fortschritt, Level, Glow-Punkte, Streaks und abgeschlossene Sessions,</li>
+      <li>Journalnotizen und freiwillige Rückmeldungen nach Sessions,</li>
+      <li>Einstellungen, Favoriten, Atmosphäre sowie Lumi-Formen und Dekorationen.</li>
     </ul>
+    <p>Du kannst diese Daten über die App-Einstellungen beziehungsweise durch Löschen der App-Daten oder Deinstallation entfernen. Eine Deinstallation kann je nach Betriebssystem-Backup nicht automatisch bereits vorhandene Gerätesicherungen löschen.</p>
 
-    <h3>3.2 Crash-Reports & Stabilität (Sentry)</h3>
-    <p>Zur Vermeidung von Abstürzen und Behebung technischer Fehler nutzen wir Sentry (Sentry GmbH, Frankfurt/Berlin, EU). Bei Abstürzen werden anonymisierte Fehlerdiagnosen (Stack-Traces, App-Version, Gerätemodell) ohne personenbezogene Identifikatoren (IP-Adresse anonymisiert) verarbeitet.</p>
+    <h3>3.2 Lokale Benachrichtigungen</h3>
+    <p>Wenn du Benachrichtigungen erlaubst, plant Lumi Erinnerungen lokal über das Benachrichtigungssystem deines Geräts. Lumi betreibt dafür derzeit keinen eigenen Push-Server. Du kannst die Berechtigung jederzeit in den System- oder App-Einstellungen widerrufen.</p>
+
+    <h3>3.3 Freiwilliger Account: Supabase, Google und Apple</h3>
+    <p>Wenn du dich freiwillig anmeldest, verarbeitet Supabase deine Account-ID, E-Mail-Adresse, den gewählten Login-Anbieter und technische Sitzungsdaten, um den Account anzulegen, dich anzumelden und die sichere Sitzung zu verwalten. Google beziehungsweise Apple übermittelt dabei nur die von dir freigegebenen Profildaten. Die Sitzung wird im sicheren Schlüsselspeicher deines Geräts gespeichert.</p>
+    <p>Rechtsgrundlage ist deine Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Du kannst sie durch Löschen des Accounts mit Wirkung für die Zukunft widerrufen. Journal, Fortschritt, Onboarding-Angaben und Einstellungen werden nicht mit Supabase, Google oder Apple synchronisiert.</p>
+    <p>Accountdaten werden bis zur Löschung deines Accounts beziehungsweise entsprechend zwingender gesetzlicher Pflichten gespeichert. Du kannst deinen Account im Profil löschen. Die lokalen Lumi-Daten bleiben dabei erhalten und können separat über die App- oder Systemeinstellungen gelöscht werden.</p>
+    <p>Weitere Informationen findest du bei <a href="https://supabase.com/privacy" style="color: var(--accent-light);">Supabase</a>, <a href="https://policies.google.com/privacy" style="color: var(--accent-light);">Google</a> und <a href="https://www.apple.com/legal/privacy/" style="color: var(--accent-light);">Apple</a>. Bei einer Verarbeitung außerhalb des Europäischen Wirtschaftsraums gelten die Schutzmechanismen des jeweiligen Anbieters, insbesondere Angemessenheitsbeschlüsse oder Standardvertragsklauseln.</p>
+
+    <h3>3.4 Fehleranalyse</h3>
+    <p>In der aktuellen Beta ist keine automatische Übertragung von Crash-Reports durch Lumi aktiviert. Sollten wir zukünftig einen Diagnosedienst aktivieren, wird diese Erklärung vorab aktualisiert.</p>
 
     <h2>4. Was wir NICHT tun</h2>
     <ul>
-      <li>❌ <strong>Keine Registrierung erforderlich:</strong> Die App funktioniert sofort ohne Account.</li>
-      <li>❌ <strong>Kein Werbe-Tracking:</strong> Wir nutzen weder Facebook Pixel, Google Analytics noch Drittanbieter-Werbung.</li>
-      <li>❌ <strong>Kein Datenverkauf:</strong> Deine Journale und Daten bleiben privat.</li>
+      <li><strong>Kein Account-Zwang:</strong> Die App funktioniert ohne Registrierung.</li>
+      <li><strong>Kein Werbe-Tracking:</strong> Wir nutzen weder Google Analytics noch Werbe-SDKs.</li>
+      <li><strong>Keine Werbung und kein Datenverkauf.</strong></li>
+      <li><strong>Kein Profiling:</strong> Onboarding-Angaben werden nicht zu Werbe- oder Interessenprofilen verarbeitet.</li>
     </ul>
 
-    <h2>5. Ihre Rechte</h2>
-    <p>Du kannst alle lokalen Daten jederzeit löschen, indem du die App deinstallierst oder den Speicherbereich in den Android/iOS-Einstellungen leerst.</p>
+    <h2>5. Deine Rechte</h2>
+    <p>Soweit wir personenbezogene Daten über deinen freiwilligen Account verarbeiten, hast du insbesondere das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerruf einer Einwilligung. Außerdem kannst du dich bei einer Datenschutzaufsichtsbehörde beschweren.</p>
+    <p>Für die Ausübung deiner Rechte erreichst du uns unter der unten angegebenen E-Mail-Adresse. Lokale App-Daten sind für uns technisch nicht einsehbar; du verwaltest und löschst sie direkt auf deinem Gerät.</p>
 
-    <h2>6. Kontakt</h2>
-    <p>Bei Fragen zum Datenschutz erreichst du uns unter: <strong>support@lumi-app.com</strong></p>
+    <h2>6. Minderjährige</h2>
+    <p>Lumi richtet sich nicht gezielt an Kinder unter 13 Jahren. Wir fordern keine Angabe eines exakten Geburtsdatums an. Eine freiwillig gewählte Altersgruppe bleibt lokal auf dem Gerät.</p>
+
+    <h2>7. Sicherheit</h2>
+    <p>Wir setzen angemessene technische und organisatorische Maßnahmen ein. Dazu gehören verschlüsselte Verbindungen und die Speicherung von Sitzungstokens im sicheren Schlüsselspeicher des Geräts. Kein technisches System kann jedoch absolute Sicherheit garantieren.</p>
+
+    <h2>8. Änderungen</h2>
+    <p>Wir aktualisieren diese Erklärung, wenn sich Funktionen oder Datenverarbeitungen ändern. Die jeweils aktuelle Fassung ist unter dieser Adresse abrufbar.</p>
+
+    <h2>9. Kontakt</h2>
+    <p>Bei Fragen zum Datenschutz erreichst du M1 Studio unter: <strong>support@m1-studio.de</strong></p>
 
     <div class="footer">
       &copy; 2026 Lumi App. Alle Rechte vorbehalten.
